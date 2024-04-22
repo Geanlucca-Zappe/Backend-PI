@@ -20,7 +20,7 @@ Esta é a classe principal que inicia a aplicação Spring Boot.
 
 Esta é a classe de serviço que contém a lógica de negócios. Ela usa o WebClient para fazer chamadas HTTP para a API do Cataas.
 
-## Endpoints
+## Rotas
 
 - `/consulta`: Retorna uma consulta da API do Cataas.
 - `/processamento`: Processa os dados recebidos no corpo da solicitação. ("Processamento era pra ser um Post, mas não consegui pensar em como fazer um post com essa API.
@@ -29,9 +29,3 @@ Esta é a classe de serviço que contém a lógica de negócios. Ela usa o WebCl
 - `/Sol`: Retorna uma imagem no Sol.
 - `/Suave`: Retorna uma imagem Suave.
 - `/Dorminhoco`: Retorna uma imagem de um gato Dorminhoco.
-
-## Como executar
-
-Para executar este projeto, você precisa ter o Java e o Maven instalados. Depois de instalados, você pode executar o projeto usando o seguinte comando:
-
-
